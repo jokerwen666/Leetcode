@@ -1,4 +1,4 @@
-package linkedList.leetcode20;
+package Stack.leetcode20;
 
 /**
  * @author Zhang Bowen
