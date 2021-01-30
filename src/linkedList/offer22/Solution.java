@@ -8,19 +8,19 @@ package linkedList.offer22;
  */
 public class Solution {
 
-    //获取链表中倒数第k个结点，使用双指针，先让一个
+    //获取链表中倒数第k个结点，使用双指针，快指针先走k-1步
     public ListNode getKthFromEnd(ListNode head, int k) {
-        ListNode top = head;
-        ListNode last = head;
+        ListNode former = head;
+        ListNode latter = head;
 
-        for(int i = 0; i < k-1; i++)
-            last = last.next;
+        for(int i = 0; i < k; i++)
+            former = former.next;
 
-        while(last.next != null){
-            top = top.next;
-            last = last.next;
+        while(former != null){
+            former = former.next;
+            latter = latter.next;
         }
 
-        return top;
+        return latter;
     }
 }
