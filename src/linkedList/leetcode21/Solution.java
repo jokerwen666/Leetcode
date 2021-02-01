@@ -1,5 +1,7 @@
 package linkedList.leetcode21;
 
+import linkedList.ListNode;
+
 import java.util.HashMap;
 import java.util.Map;
 

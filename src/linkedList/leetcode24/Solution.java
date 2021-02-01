@@ -1,5 +1,7 @@
 package linkedList.leetcode24;
 
+import linkedList.ListNode;
+
 /**
  * @author Zhang Bowen
  * @Description

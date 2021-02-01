@@ -1,5 +1,7 @@
 package linkedList.leetcode445;
 
+import linkedList.ListNode;
+
 import java.util.Stack;
 
 /**

@@ -1,5 +1,7 @@
 package linkedList.offer22;
 
+import linkedList.ListNode;
+
 /**
  * @author Zhang Bowen
  * @Description
