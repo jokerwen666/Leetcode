@@ -44,7 +44,7 @@ public class Solution {
             }
         }
 
-        if(loop) return null;
+        if(!loop) return null;
 
         ListNode ptr = head;
         while (ptr != slow) {
